@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup_body{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.signup_container {
+    height: 92.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

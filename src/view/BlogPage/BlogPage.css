@@ -1,0 +1,10 @@
+.card2-card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card2_card_container {
+    margin-top: 50px;
+}

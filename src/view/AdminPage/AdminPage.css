@@ -1,0 +1,9 @@
+.adminpage-card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.adminpage_card_container {
+    margin-top: 50px; 
+}

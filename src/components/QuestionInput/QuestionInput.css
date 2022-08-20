@@ -1,0 +1,45 @@
+.questioninput_select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: tan;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    
+ }
+ .questioninput_select::-ms-expand {
+    display: none;
+ }
+ .questioninput_selects {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .questioninput_selects::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: darkgray;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .questioninput_selects:hover::after {
+    color: #23b499;
+ }

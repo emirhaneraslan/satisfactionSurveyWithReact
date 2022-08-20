@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sigin_body{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.signin_container{
+    height: 92.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

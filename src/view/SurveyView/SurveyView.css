@@ -1,0 +1,13 @@
+.container-survey-view{
+    margin: 2rem 0;
+}
+
+.surveyview-container-center{
+    border: 4px solid #23b499;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.surveyview-survey-title{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.card {
+    margin-top: 2rem;
+    align-items: center;
+    
+}
+
+.card1-img-top{
+  width: 100%;
+  height: 20rem; /*üstteki yapıyla birlikte img yapısı taşmasın*/
+  transition: 1s all; /*olayların yavaş gerçekleşmesini sağlar*/
+  object-fit: cover;
+}
+
+.card1-title{
+  margin-top: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card1-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  
+}

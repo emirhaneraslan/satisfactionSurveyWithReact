@@ -1,0 +1,54 @@
+.radio-container-five {
+    font-size: 24px;
+    padding: 8px;
+  }
+  
+  .fiveoption5_input[type="radio"] {
+    display: none;
+  }
+  
+  .fiveoption5_label {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    padding-right: 32px;
+  }
+  
+  .fiveoption5_label:nth-last-child(1) {
+    padding-right: 0;
+  }
+  
+  .fiveoption5_label::before {
+    content: "";
+    border: 2px solid #222;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -8px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+  }
+  
+ .fiveoption5_label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(34, 34, 34, 0);
+    left: 0px;
+    top: 25px;
+    margin: -8px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+  
+    transition: all 0.4s;
+  }
+  
+  .fiveoption5_input[type="radio"]:checked + .fiveoption5_label::after {
+    background: rgba(34, 34, 34, 1);
+  }
+
+  .horizontal{
+    border-top: 3px solid red;
+  }

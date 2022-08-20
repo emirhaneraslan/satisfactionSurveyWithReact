@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.homeview_wrapper{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.homeview_center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.homeview_center .homeview_h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.homeview_center .homeview_h2{
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.homeview_center .homeview_buttons{
+	margin: 35px 280px;
+}
+.homeview_buttons .homeview_button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.homeview_buttons .btn2{
+	margin-left: 25px;
+}
+.homeview_buttons .homeview_button:hover{
+	background: #cc0000;
+}

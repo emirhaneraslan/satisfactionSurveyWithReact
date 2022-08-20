@@ -1,0 +1,9 @@
+.firstpage-card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.firstpage_card_container {
+    margin-top: 50px; 
+}
